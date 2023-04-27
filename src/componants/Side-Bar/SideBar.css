@@ -1,0 +1,22 @@
+.sidebar{
+    width: 230px;
+    color:  white;
+    transition: all 0.5s;
+    background-color: rgb(54,64,78);
+}
+.sidebar .menu ul li span{
+    font-size: 15px;
+    color: #98a6ad;
+    vertical-align: middle;
+}
+
+.sidebar .menu ul li .icon{
+    color: #98a6ad;
+}
+.navlink:hover,.active{
+    color: white !important;
+}
+.hide{
+    width: 0;
+    padding: 0 !important;
+}

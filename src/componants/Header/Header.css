@@ -1,0 +1,25 @@
+:root{
+    --icon-size : 40px;
+    --avtar-size : 40px
+}
+.search{
+    font-size: 13px;
+}
+.header-icon .icon{
+    width: var(--icon-size);
+    height: var(--icon-size);
+}
+.header-icon .icon:hover{
+    background-color: rgba(var(--bs-light-rgb), 1) !important;
+}
+.avtar img{
+    width: var(--avtar-size);
+    height: var(--avtar-size);
+}
+.user-detail span{
+    font-size: 13px;
+    font-weight: 500;
+}
+.user-detail p{
+    font-size: 11px;
+}

@@ -1,0 +1,17 @@
+.product-form form .form-label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.product-form form input{
+    font-size: 13px;
+    padding: 10px 15px;
+    border: 1px solid var(--bs-white);
+    outline: none;
+}
+.product-form form .btn{
+    font-size: 14px;
+    padding: 10px 40px;
+}
+hr{
+    border-top: 2px solid;
+}

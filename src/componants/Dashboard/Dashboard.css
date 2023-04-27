@@ -1,0 +1,39 @@
+:root{
+    --bs-primary : #36404E;
+}
+.calender span,.calender .calender-icon,.cta-btn span{
+    font-size: 13px;
+}
+.rmdp-input {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    font-size: 11px ;
+    color : var(--bs-primary) !important;
+    font-weight: 500 !important;
+}
+.rmdp-range {
+    background-color: var(--bs-primary) !important;
+    box-shadow: 0 0 3px white;
+    color: white !important;
+}
+.rmdp-week .rmdp-week-day {
+    color: var(--bs-primary)!important;
+    cursor: default;
+    font-size: 10px !important;
+    font-weight: 500;
+}
+.rmdp-day span{
+    font-size: 11px !important;
+}
+.rmdp-day.rmdp-today span,.rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover{
+    background-color: var(--bs-secondary);
+    color: #fff;
+}
+.rmdp-arrow{
+    border: solid var(--bs-primary) !important;
+    border-width: 0 2px 2px 0 !important;
+}
+.card svg{
+    font-size: 60px !important;
+}

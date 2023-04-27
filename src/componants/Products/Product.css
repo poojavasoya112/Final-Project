@@ -1,0 +1,23 @@
+.table {
+    /* --bs-primary-rgb: 85, 147, 149 !important; */
+    --bs-secondary-rgb: 181, 241, 244 !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: rgba(85,147,149,0.2) ;
+}
+.table thead tr th{
+    font-size: 15px ;
+}
+.table>:not(caption)>*>*{
+    padding: 0.7rem 0.7rem
+}
+.table>:not(caption)>*>*{
+    border-bottom: 0;
+}
+.table td .btn{
+    font-size: 14px;
+}
+.table td .btn svg{
+    font-size: 12px;
+}
